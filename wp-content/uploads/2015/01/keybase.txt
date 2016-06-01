@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/hibri
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://hibri.net
+  * I am hibri (https://keybase.io/hibri) on keybase.
+  * I have a public key with fingerprint DAFD 811D 5E29 3DB6 B3D0  4562 2903 074E DF5C AAB6
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "dafd811d5e293db6b3d045622903074edf5caab6",
+            "host": "keybase.io",
+            "key_id": "2903074edf5caab6",
+            "kid": "01015aeb96432ad207b05bbc29ae6e66fcedb1d72a60340297efde0b77ed584c1dc70a",
+            "uid": "f24c0c4a6364d76f0a5c213fc6f0c000",
+            "username": "hibri"
+        },
+        "service": {
+            "hostname": "hibri.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1422227747,
+    "expire_in": 157680000,
+    "prev": "3621e36826b0115a43caa636bf6dbfe9507b2c2b41eecfb199c676a8f2443b0b",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.1
+Comment: https://keybase.io/crypto
+
+yMISAnicbVJfSBRBHD5L8w+EIlKRhLD6UHids/9mb68iUBIhoR4iFctjZ2f2XM3d
+c2+9NDmpsAhJQjKxv1BJET4klw8pGiqJpakPJeJDIURlEnSkZlFks1LQQ/MyM7/f
+933z+z7m6eaNrpQ4frDlTVr3ykDcxLCvznVktCG7kUEmbmB8jUw1Wd803QgQK2jp
+hs34GKxo2MuyWCSczGMEEY+BIEKOkwEPJIFgTVQVBUHGzVSaIYdBZZASIh7dpDV6
+8euYVv+Dr15vABawokKQDAWeUzAHJAREhFROVggkEGoqwYjFEqdAwAuAkyWiYQKQ
+JBEsegWVxaoEFCpXty6ncYIKVEGBPBSwBDWgiCrH8ppKjyoAwAGGiGUoNYSiK3Vk
+6UzEzdBSWFeJ49+x8W/bYxCbsoKWaZuqecIp23bQ57DshqADO0mQ/4+AH+kGpgFS
+QphYId00GB9LkaqtO4qswNElSYLkZkh9ULeIX3cQogS9dDjgPEPCVJKHHEt46OUg
+AizNR+BpatQT0iBGGpFFGhOnckhgCVE1xMqyCiWoeKl9gUcAMY6lWsNkfDwdUwlQ
+yZAeMBS7ziJMZGToWLwrLsW1KWGD8wVcKclpfz/GrWCSq99V/W6ksOB9XlZXxZOh
+8sT24dlo2ZUcvOt0d3H52lT45otwkK/7tWoUJn4dblt6diO1SB47sPywMMrGjOqa
+jpLJLa9n2q/fnz+/w5v13e0/2tEzczh/0Zwb/9EXfX53GX4rqp/lYztdY0xTfO/L
+C8m5qGGPu8Kc2D0e/ryUZaeXJm4trcj80tZmBc9lbuuK9BDhUnZmelPX7ap7U83a
+qcXOg2ev5Xkuf3wg7pfuzPR1/8z4VJCcmrNQlh9X8upQY3KtZ614evliN4ieyche
+3R7rffzg7aPyhb2tKzVaS2dZUqT/6oeq6dHawcL5WHPg+IDVOpbLTQpzuCm/OGHf
+b9zBKeo=
+=/uDr
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hibri
+
+==================================================================
