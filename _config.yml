@@ -12,13 +12,16 @@ url:                 'https://hibri.github.io'
 baseurl:             'https://hibri.github.io'
 paginate:            5
 
-
+#github
+github:
+  repo: https://www.github.com/hibri/hibri.github.io
+  user: hibri
 # About/contact
 author:
   name:              Hibri Marzook
   url:               https://twitter.com/hibri
   email:             hibri@hibri.net
-  twitter:           '@hibri'
+  twitter:           hibri
 
 # Custom vars
 version:             1.0.0
