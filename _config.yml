@@ -7,8 +7,8 @@ permalink:           pretty
 # Setup
 title:               Hibri Marzook
 tagline:             'Musings on technology and photography'
-description:         'Consultant at contino.io. Love APIs, agile, tdd, continuous delivery and dev ops'
-url:                 https://hibri.github.io
+description:         'Consultant at <a href="http://contino.io">Contino</a>. Love APIs, agile, tdd, continuous delivery and dev ops. Opinions are my own'
+url:                 'https://hibri.github.io'
 baseurl:             'https://hibri.github.io'
 paginate:            5
 
@@ -18,6 +18,7 @@ author:
   name:              Hibri Marzook
   url:               https://twitter.com/hibri
   email:             hibri@hibri.net
+  twitter:           '@hibri'
 
 # Custom vars
 version:             1.0.0
