@@ -39,7 +39,7 @@ A build framework, in a programming language, allows you to be much more fluent 
 
 &#160;
 
-[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="deployment" border="0" alt="deployment" src="http://www.hibri.net/wp-content/uploads/2012/04/deployment_thumb.png" width="554" height="429" />](http://www.hibri.net/wp-content/uploads/2012/04/deployment.png)
+[<img style="background-image: none; border-right-width: 0px; padding-left: 0px; padding-right: 0px; display: block; float: none; border-top-width: 0px; border-bottom-width: 0px; margin-left: auto; border-left-width: 0px; margin-right: auto; padding-top: 0px" title="deployment" border="0" alt="deployment" src="{{ site.url }}/wp-content/uploads/2012/04/deployment_thumb.png" width="554" height="429" />]({{ site.url }}/wp-content/uploads/2012/04/deployment.png)
 
 &#160;
 
