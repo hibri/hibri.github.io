@@ -8,7 +8,7 @@ permalink:           pretty
 title:               Hibri Marzook
 tagline:             'Musings on technology and photography'
 description:         'Consultant at contino.io. Love APIs, agile, tdd, continuous delivery and dev ops'
-url:                 http://hibri.github.io
+url:                 https://hibri.github.io
 baseurl:             'https://hibri.github.io'
 paginate:            5
 
