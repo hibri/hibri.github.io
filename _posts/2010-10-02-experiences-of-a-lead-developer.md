@@ -1,7 +1,7 @@
 ---
 id: 464
 title: Experiences of a Lead Developer
-date: 2010-10-02T15:40:48+00:00
+date: 2010-10-02T14:40:48+00:00
 author: Hibri Marzook
 layout: post
 guid: http://www.hibri.net/?p=464
@@ -9,8 +9,6 @@ permalink: /2010/10/02/experiences-of-a-lead-developer/
 categories:
   - Agile
   - development
-tags:
-  - "team leading" "lead developer" "agile software develoment"
 ---
 It has been 3 years and a bit since I started leading software teams and recently I’ve been reflecting on my experiences since then. 
 
