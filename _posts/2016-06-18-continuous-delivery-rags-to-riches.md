@@ -1,12 +1,17 @@
 ---
-title: Continuous Delivery - Getting from rags to riches
-date: 2016-06-18T19:11:00+00:00
+title: Continuous Delivery - Going from rags to riches
+date: 2016-06-18T19:11:00
 author: Hibri Marzook
 layout: post
+published: true
 permalink: /2016/06/18/continuous-delivery-rags-to-riches
 categories:
   - Continuous Delivery
   - Contiunous Integration
+
+tags:
+  - continous-delivery
+  - teams
 ---
 My last year and a half has been spent guiding a team, working on a legacy codebase, to a level of maturity where they can deliver reliably.
 
