@@ -6,11 +6,20 @@ author: Hibri Marzook
 layout: post
 guid: http://www.hibri.net/?p=3166
 permalink: /2016/05/22/getting-started-with-windows-containers/
+summary: 
+  - Earlier this year Microsoft announced Windows 2016 Server TP-5 with support for Windows Containers. An easy way to get started with WIndows Containers is to use Packer to build a Vagrant box.
+
 medium_post:
   - 'O:11:"Medium_Post":11:{s:16:"author_image_url";s:69:"https://cdn-images-1.medium.com/fit/c/200/200/0*9AlhGwCMOXvvLqRu.jpeg";s:10:"author_url";s:25:"https://medium.com/@hibri";s:11:"byline_name";N;s:12:"byline_email";N;s:10:"cross_link";s:3:"yes";s:2:"id";s:12:"1c7497872659";s:21:"follower_notification";s:3:"yes";s:7:"license";s:19:"all-rights-reserved";s:14:"publication_id";s:2:"-1";s:6:"status";s:6:"public";s:3:"url";s:78:"https://medium.com/@hibri/getting-started-with-windows-containers-1c7497872659";}'
 categories:
   - Continuous Delivery
   - Contiunous Integration
+
+tags:
+  - docker
+  - cd
+  - windows
+  - containers
 ---
 Earlier this year Microsoft announced Windows 2016 Server TP-5 with support for Windows Containers.
 
