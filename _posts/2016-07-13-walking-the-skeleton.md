@@ -30,22 +30,22 @@ I’d like to take the analogy of “walking” the skeleton, all the way from a
 
 Some common roadblocks are;
 
-The shared test environment: This is the only environment available for testing. New and old services are dumped here, because at some point in the past it was a copy of the production environment, and everything has to be tested here.
+**The shared test environment:** This is the only environment available for testing. New and old services are dumped here, because at some point in the past it was a copy of the production environment, and everything has to be tested here.
 
 This dysfunction is a result of not having an automated way to spin up an isolated infrastructure for testing.
 
-The DNS Czar: A single person is responsible for creating DNS entries. Forms have to be filled in triplicate, and a few meetings had before a service can be hosted. This leads to hard coded IP addresses scattered around configuration files.
+**The DNS Czar:** A single person is responsible for creating DNS entries. Forms have to be filled in triplicate, and a few meetings had before a service can be hosted. This leads to hard coded IP addresses scattered around configuration files.
 
 Again this is a dysfunction of not having an automation first approach.
 
-Fear of the new : A new way of automation or a change to an existing process finds resistance. If the metaphorical skeleton dons a Jet pack, the request is denied. This causes much antagonism between devs and ops. 
+**Fear of the new:** A new way of automation or a change to an existing process finds resistance. If the metaphorical skeleton dons a Jet pack, the request is denied. This causes much antagonism between devs and ops. 
 
 This leads to a suboptimal deployment processes, as development teams think of workarounds to get things deployed.
 
 This dysfunction, is a result of a lack of communication between teams, and shared ownership of common code. Teams tend to focus only on their own deliverables.
 
 
-Lack of a shared deployment pattern : There isn’t a shared deployment pattern across the organisation. There will be isolated examples of great and good enough patterns, but these aren’t shared. Each time something new is deployed the wheel has to be reinvented and a shared delivery framework does not emerge.
+**Lack of a shared deployment pattern:** There isn’t a shared deployment pattern across the organisation. There will be isolated examples of great and good enough patterns, but these aren’t shared. Each time something new is deployed the wheel has to be reinvented and a shared delivery framework does not emerge.
 
 
 In the projects I’ve observed, the first week or more of a new project (a new idea) is spent dealing with these dysfunctions. That is one week without customer feedback loop. It is also one week of wasted productivity.
