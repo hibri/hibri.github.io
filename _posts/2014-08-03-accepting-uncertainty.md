@@ -10,7 +10,7 @@ categories:
   - Agile
   - Continuous Delivery
 ---
-This is one of those things that should be filed under continuous delivery patterns. One of the anti-patterns I see in continuous deployment, is the need to make sure that the software is flawless before it&#8217;s released. This anti-pattern manifests itself, in the need to have several stakeholders test and approve a release. The release dance takes days, when something is good enough to be on a production system.
+This is one of those things that should be filed under continuous delivery anti-patterns. One of the anti-patterns I see in continuous deployment, is the need to make sure that the software is flawless before it&#8217;s released. This anti-pattern manifests itself, in the need to have several stakeholders test and approve a release. The release dance takes days, when something is good enough to be on a production system.
 
 There is a large suite of long running tests that must be run, before a release is approved. There is a release management dance that _**must be done**_ before a release. Cue the constant conversations around the office about the impending release.
 
