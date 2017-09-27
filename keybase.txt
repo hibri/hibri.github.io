@@ -1,0 +1,81 @@
+==================================================================
+https://keybase.io/hibri
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.hibri.net
+  * I am hibri (https://keybase.io/hibri) on keybase.
+  * I have a public key with fingerprint DAFD 811D 5E29 3DB6 B3D0  4562 2903 074E DF5C AAB6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01015aeb96432ad207b05bbc29ae6e66fcedb1d72a60340297efde0b77ed584c1dc70a",
+      "fingerprint": "dafd811d5e293db6b3d045622903074edf5caab6",
+      "host": "keybase.io",
+      "key_id": "2903074edf5caab6",
+      "kid": "01015aeb96432ad207b05bbc29ae6e66fcedb1d72a60340297efde0b77ed584c1dc70a",
+      "uid": "f24c0c4a6364d76f0a5c213fc6f0c000",
+      "username": "hibri"
+    },
+    "merkle_root": {
+      "ctime": 1506514621,
+      "hash_meta": "93aff829299566160b5087133b64c4eb67cdf8230040a6198eb7fd42554269ff",
+      "seqno": 1463795
+    },
+    "revoke": {
+      "sig_ids": [
+        "f591262b8621fb451dd0db8ed3da77ded4483dc4578c5e39621397cb48cb4dc90f"
+      ]
+    },
+    "service": {
+      "hostname": "www.hibri.net",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1506514641,
+  "expire_in": 157680000,
+  "prev": "c7d7e931a5b4345b382c8654f7c4200caabca56592038babfbda0766819072d3",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.74
+Comment: https://keybase.io/crypto
+
+yMK0AnicrZNvaFVlHMfvMrOGkksywkI9FBms+fx/znPBVkKwFxUpG05tXp6/23H3
+3nN37rn7g9xwYfRHfaEvAl9EREKEL0KhDFxj2cBsYrigZcFCK2qjF0ltrBzUcy5G
+EL3sxeH8eb6/7+/7+5znmVyzItfchD96bXbtqYWxpqnzSS23e+r1KwcCFZuRIH8g
+6LeNmy0aW00L/ZEJ8gGAAFJplWAEI2kQ4ApQpTQS0jLLmNPWKGg4kgxgApDg1hkL
+FOfW0JBoaDQHMmgNXFTutUklicqptzXSmRBCQy0S2CimsAGEMoQEwIATaxzVUirm
+C/vialbhwylZtW1R7L/5l0Ij3n/o/+fctYadQ0QDTSTDjBjOHJBUI4id9o8aAJAJ
+qzYpy5L16r5IJVFQbw1KNukv2kISx2lGVqdRtg4pYBQShqCfTlb7CiWbSl8msHQu
+RAIJQRmDDCgKQg4xVoxoYhXj2vh1DAABkkERWsWdIYhSgphwzoeo2oFy7DsQhrmg
+PkFiB+N+mzWvRr2eWTXI7w0cFRAxpEIfwSlCoTHAqNAabCTnxhpCQmw0oTzU1GLh
+ZVhwrUjoL6MFcEFPPWuWDEa6YZ79pFvDDw0NtTUAtJVt6iNVkjiNdVzMuKRpJZ9x
+SUcqDalVhVsmBRWVjd8ivmDQJtUoLvspvPJfyIhHZocrUWILUaagnIUeP8ja2EFv
+qbnhVmAoqSKYUIVDpENGieOaIACyTaIlZVQggEMllVNGAs5YCAXgyOB/GFIfU/Z6
+Sw+uLNNaYoP6+Ynnb881NefuWHlbdnRyzXet/ftAnbB35s5uCveHG36b3AHXdF54
+6GPR+UbJPXjvteWWrs2F1eSH1bvvGw63DYwOdJOTz80c2/9rx82ZL9ZXzNWx7T91
+BPDT+594k3yOFuotpOmTe7a1v3NucW7y4tvjb7VefXXp+r4LS6flnsXZU3ePTrcU
+j/7y4mL70GzXyK49xXWHH+949/K3Pc8cXfXyRL62auKrD6bnZ6PDP3/zytj17/f9
+MfzlhvdmLrEJeeK7zp03X3r20NaLO8dPLjzQs+5RU58n28tn5paeOvJ1d+kzsrln
+xcG9Zz+cb1+qzW18bOONvkPD5ulLgy9M0a7JXU8eX17//uUfV16Z6T5+Y3n02pYz
+Ynx60yMPH4ladhzc2vH7sT//AhzGhsw=
+=3cTl
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/hibri
+
+==================================================================
