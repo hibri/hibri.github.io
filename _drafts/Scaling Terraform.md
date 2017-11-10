@@ -79,11 +79,9 @@ This can be solved via peer reviews and the use of a [Janitor monkey](https://me
 In addition, Terraservices provide a happy path for teams to get up and running quickly, and are less likely to build their own. 
 
 ## Further reading
-[Evolving Your Infrastructure with Terraform ](https://www.youtube.com/watch?v=wgzgVm7Sqlk)
-
-[How to use Terraform as a team](https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973)
-
-[Terraform Recommended Practices](https://www.terraform.io/docs/enterprise-beta/guides/recommended-practices/index.html)
+1. [Evolving Your Infrastructure with Terraform ](https://www.youtube.com/watch?v=wgzgVm7Sqlk)
+2. [How to use Terraform as a team](https://blog.gruntwork.io/how-to-use-terraform-as-a-team-251bc1104973)
+3. [Terraform Recommended Practices](https://www.terraform.io/docs/enterprise-beta/guides/recommended-practices/index.html) 
 
 
 
