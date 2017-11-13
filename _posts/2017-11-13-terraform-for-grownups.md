@@ -1,3 +1,25 @@
+---
+title: Terraform for grownups - A model for scaling Terraform workflow in a large organisation
+date: 2017-11-13T16:00:00+00:00
+author: Hibri Marzook
+layout: post
+published: true
+
+categories:
+  - Continuous Delivery
+  - Contiunous Integration
+  - Terraform
+  - Devops
+
+tags:
+  - continous-delivery
+  - teams
+  - terraform
+  - devops
+
+
+---
+
 # Terraform for grownups - A model for scaling Terraform workflow in a large organisation
 
 It’s very easy to run terraform from a laptop and go wild managing your infrastructure. But what do you do when you start working on more complex infrastructure. How do you avoid running into each other ?
