@@ -61,6 +61,7 @@ A Terraservice has it’s own CI/CD pipeline. The pipeline runs unit, integratio
 The integration and compliance tests run in a sandbox environment, and spin up their own test harnesses to exercise changes the Terraservice. 
 
 At the end of the pipeline, when tests are green, the Terraservice is versioned and tagged. 
+
 ![](releases.png)
 
 This ensures that a consumer picks a specific published version or stays on master to be on the bleeding edge. Keeping master stable and use [Trunk Based Development](https://trunkbaseddevelopment.com/) practices.
@@ -73,6 +74,7 @@ Terraform projects use remote state to share outputs, which are consumed by othe
 
 
 It’s the Terraform project pipelines that build actual infrastructure. They are decoupled from the application pipelines intentionally. The pipelines create empty environments that code can be deployed to. The master branch of a Terraform project reflects the current state of infrastructure. Each environment is built the same way. Environment specific variables can be tuned to change the behaviour, but once a change is committed to master, the pipelines apply the change to all environments as long as each stage in the pipeline stays green.
+
 ![](stages.png)
 
 There can be more automated quality gates between pipeline stages but it’s important to ensure that no infrastructure used, is built manually. Building infrastructure via delivery pipelines early on, helps drive out issues that can hit your workflow later when more people work on it. An automated process is easier to improve, than a manual one.
