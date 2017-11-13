@@ -20,7 +20,6 @@ tags:
 
 ---
 
-# Terraform for grownups - A model for scaling Terraform workflow in a large organisation
 
 It’s very easy to run terraform from a laptop and go wild managing your infrastructure. But what do you do when you start working on more complex infrastructure. How do you avoid running into each other ?
 
