@@ -61,7 +61,7 @@ The integration and compliance tests run in a sandbox environment, and spin up t
 
 At the end of the pipeline, when tests are green, the Terraservice is versioned and tagged. 
 
-![](releases.png)
+![](/public/images/releases.png)
 
 This ensures that a consumer picks a specific published version or stays on master to be on the bleeding edge. Keeping master stable and use [Trunk Based Development](https://trunkbaseddevelopment.com/) practices.
 
@@ -69,12 +69,12 @@ This ensures that a consumer picks a specific published version or stays on mast
 Terraservices are used to compose infrastructure in Terraform projects. The Terraform projects each have their own pipelines. 
 Terraform projects use remote state to share outputs, which are consumed by other Terraform projects. This is how it all flows together.
 
-![](pipelines.png)
+![](/public/images/pipelines.png)
 
 
 It’s the Terraform project pipelines that build actual infrastructure. They are decoupled from the application pipelines intentionally. The pipelines create empty environments that code can be deployed to. The master branch of a Terraform project reflects the current state of infrastructure. Each environment is built the same way. Environment specific variables can be tuned to change the behaviour, but once a change is committed to master, the pipelines apply the change to all environments as long as each stage in the pipeline stays green.
 
-![](stages.png)
+![](/public/images/stages.png)
 
 There can be more automated quality gates between pipeline stages but it’s important to ensure that no infrastructure used, is built manually. Building infrastructure via delivery pipelines early on, helps drive out issues that can hit your workflow later when more people work on it. An automated process is easier to improve, than a manual one.
 
@@ -85,7 +85,7 @@ Keep core network and components that deal with core security away from Terrafor
 
 The infrastructure should be architected in a way that an application infrastructure can be destroyed without affecting other applications or core components. 
 
-##Pick the right team structure
+## Pick the right team structure
 A crucial part of this is how the teams are organised and use Terraservices. A platform engineering team is needed to shepherd    Terraservices and continuously drive the right ways of working. This team has to look across the organisational landscape and define how the  Terraservices are built, ensure they help teams build their applications quickly and provide enough so that teams don’t have the need to build their own infrastructure differently.
 
 The Terraform projects which drive the application stacks are under the control of the application teams. This means that they can iterate rapidly, and use components from an approved library of Terraservices to compose their infrastructure.
