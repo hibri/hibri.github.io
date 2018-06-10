@@ -6,29 +6,19 @@ author: Hibri Marzook
 layout: page
 
 ---
-I’m a programmer. I love building great software and I love building great teams that go on to build great software.
 
-I’m a generalist. Even though I’ve mostly worked on the Microsoft.Net stack for over a decade, I’ve used a variety of tools to solve problems. I’ve worked with Java, PHP, and VB in the past. Lately, I’ve been working with Ruby and JavaScript, and am excited about the NodeJS ecosystem. I’m platform agnostic and work on both Windows and Linux environments. (There was a brief foray into Solaris in the past.)
-
-The Agile practices mirror the way I want to work. I advocate Test Driven Development, and get a kick out of teaching it. I enjoy working on automation and continuous delivery. I’ve built continuous deployment frameworks to help my teams deliver anytime they choose, and the amount of time I spend automating releases to production makes me think I should wear my sysadmin hat more often.
-
-In the past I’ve led teams at 7digital, BBC Worldwide, Audio Network, Energyhelpline and WorldRemit to build great products.
+Hibri is a developer and consultant experienced in leading teams and organisations to become better at delivering software. He has helped teams at BBC Worldwide, 7Digital, Audionetwork and WorldRemit adopt agile software development practices succesfully and become adept at Continuous Delivery. He leads by example with a mixture of hands on delivery and by building a collaborative culture. 
 
 
-
- [<img src="http://www.linkedin.com/img/webpromo/btn_viewmy_160x25.png" alt="View Hibri Marzook's profile on LinkedIn" width="160" height="25" border="0" />](http://uk.linkedin.com/in/hibri)
+ [View Hibri Marzook's profile on LinkedIn](http://uk.linkedin.com/in/hibri)
 
 Code [http://github.com/hibri](https://github.com/hibri)
-
-CV <http://careers.stackoverflow.com/hibri>
 
 Presentations <https://speakerdeck.com/hibri>
 
 Conferences <http://lanyrd.com/profile/hibri/>
 
-&nbsp;
+Talks I've given
 
-<div id='contact-form-2'>
-</div>
-
-&nbsp;
+* [Hashicorp Tools for the Windows Ecosystem](https://speakerdeck.com/hibri/hashicorp-tools-for-windows)
+* [Evolving Continuous Delivery](https://speakerdeck.com/hibri/evolving-continuous-delivery). [Video](https://www.youtube.com/watch?v=eYzk2BKeG9s) 
