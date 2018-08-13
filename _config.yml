@@ -3,6 +3,7 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:  :year/:month/:day/:title/
 
+theme: "hyde"
 
 # Setup
 title:               Hibri Marzook
