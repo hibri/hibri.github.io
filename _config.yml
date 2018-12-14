@@ -9,8 +9,7 @@ title:               Hibri Marzook
 tagline:             'Musings on technology and occsionally photography'
 description:         'Consultant at <a href="http://contino.io">Contino</a>. Love APIs, agile, tdd, continuous delivery and dev ops. Opinions are my own'
 url:                 'https://www.hibri.net'
-baseurl:             'https://www.hibri.net'
-paginate:            5
+
 future: true
 
 #github
