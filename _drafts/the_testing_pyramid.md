@@ -10,7 +10,7 @@ This is what the test pyramid describes. From bottom up.
 
 Unit tests make up the bottom layer. Unit tests, test a unit of code. What is a unit of code? A class, a method? A couple of collaborating classes?  If it's a class do we test every method of a class?
 
-A unit/class of code encapsulates behaviour and data. In unit testing we focus on testing behaviour. Not the implementation details. The Single Responsibility Principle (SRP) states; 
+A unit/class of code encapsulates behaviour and data. In unit testing we focus on testing behaviour. Not the implementation details. The [Single Responsibility Principle (SRP)](https://en.wikipedia.org/wiki/Single_responsibility_principle) states; 
 
 "_Every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class._"
 
@@ -39,6 +39,8 @@ The exploratory nature of these tests make them hard to automate. A repeated tes
 ### Over-reliance on end to end (E2E) tests
 
 End to end tests are an all-embracing simulation of real user scenarios. These tests are a symptom of  testing as an after thought. The myth is that this is where we get more value. E2E tests have value for very simple systems. As the system grows, there are more scenarios to test. The system grows in complexity.  E2E tests also reflect that complexity. The tests become fragile and take more time and effort to maintain. Spending this time and effort on unit tests is a better investment strategy.
+
+The only place we can get value out of E2E tests is in production. 
 
 ([https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)](https://testing.googleblog.com/2015/04/just-say-no-to-more-end-to-end-tests.html)
 
