@@ -1,8 +1,16 @@
 # Testing Pyramids, Trophies, Diamonds and Doritos
 
-## The Pyramid
+Any new change to the software we build has risk. To reduce/mitigate risk, we build quality into our software development process. Automated Tests are a fundamental part of building quality in. We can't deliver faster without the safety rails of automated testing. We need quick feedback on if we are building it right, and if we are building the right thing.
 
-The Testing Pyramid is a visual metaphor to think about testing and the types of tests. 
+Different types of tests give us this quick feedback. We need to maintain the right combination of the different  test types. Doing so will help us to get the quick feedback and deliver faster. 
+
+For example; Focussing only on end to end testing may seem like getting more value for the effort spent. This is a common pattern at the start of projects. But, overtime maintaining end to end tests becomes a Sisyphean task. The effort is not worth the value.
+
+We are building complex systems. A simple test strategy will not give us the confidence we need to go fast. 
+
+The Testing Pyramid is a visual metaphor to think about testing and the types of tests. This helps us communicate a test strategy. 
+
+Let's look at the different types of tests. We'll look at what each type of test should do. We'll also look at they all complement each other. Let's also look at the effects of focussing on only one type of test and some of the common anti-patterns.
 
 ## The Layers of the Pyramid
 
