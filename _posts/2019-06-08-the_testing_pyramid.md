@@ -20,7 +20,7 @@ tags:
 
 ---
 
-Any new change to the software we build has risk. To reduce risk, we build quality into our software development process. Automated Tests are a fundamental part of building quality in. We can't deliver faster without the safety rails of automated tests. Automated tests provide quick feedback on if we are building it right, and if we are building the right thing. 
+Any new change to the software we build has risk. To reduce risk, we build quality into our software development process. Automated Tests are a fundamental part of building quality in. We need to build quality in order to go faster. Automated tests  are the safety rails that allow us to go faster. Automated tests provide the crucial quick feedback on if we are building it right and if we are building the right thing, as we go faster. 
 
 Different types of tests are needed to give fast feedback and we need to maintain the right balance of the different types of tests. Getting this balance right helps get fast feedback, to deliver faster.
 
@@ -44,11 +44,11 @@ A unit of code encapsulates behaviour and data. In unit testing we focus on test
 
 "_Every module or class should have responsibility over a single part of the functionality provided by the software, and that responsibility should be entirely encapsulated by the class._"
 
-If we follow SRP, then the unit of code under test, will have only one method (or two) as an entry point. The entry point provide access to the behaviour encapsulated by the unit of code.  Unit tests exercise these. The test validates that the encapsulated behaviour is correct. 
+If we follow SRP, then the unit of code under test, will have only one method (or two) as an entry point. The entry point provides access to the behaviour encapsulated by the unit of code. Unit tests exercise these. The test asserts that the encapsulated behaviour is correct. 
 
-We assert this in two ways. One, by asserting against the data returned. Two, by assert against the expectations on collaborating classes.
+We assert this in two ways. First, by asserting against the data returned. Second, by asserting against the expectations against collaborating classes.
 
-Unit tests should run fast (in milliseconds), in the same process and in-memory. Unit tests should not have any I/O or cross  any process boundaries. If or when they do they become another kind of test.
+Unit tests should run fast (in milliseconds), in the same process and in-memory. Unit tests should not have any I/O or cross  any process boundaries. If they do, then they become another kind of test.
 
 ## Acceptance Tests
 
@@ -86,9 +86,11 @@ Smoke tests aren't intrusive. They aren't exhaustive either. Focus on critical u
 ![Manual Tests](/public/images/2019-06-10-manual-tests.png)
 Manual tests are driven by a tester or a user. They are human driven. A tester interacts with the system as a user. Manual tests are costly, but valuable. Manual tests are the most expensive kind of tests, both in terms of money and effort. So we need to get the most value out of them.
 
-Manual tests are valuable when they are exploratory tests. This is where we leverage the mindset of people who can break the system. If we lay the testing pyramid on it’s side, manual tests are the tip of the spear!
+Manual tests are valuable when they are exploratory tests. This is where we leverage the mindset of people who can break the system.
 
-Manual tests explore the unknown. These tests look at the new capabilities of the system. They look at how users interact with the system in the wild. It's a process of converting the unknown unknowns into known knowns.
+![Unknown and known risks](/public/images/2019-06-10-manual-unknown-risks.png)
+
+Manual tests explore the unknown. These tests look at the new capabilities of the system. They look at how users interact with the system in the wild. It's a process of converting the unknown unknowns into known knowns. We can only automate against expected states we know.
 
 ## The Anti-Patterns and their effects
 
@@ -115,6 +117,8 @@ Tests before a release should be automated regression tests. If tests have passe
 When technology organisations start to do automated testing, the first thing they do is to recruit Automation Testers. This feeds the previous anti-pattern. 
 
 I’ve seen test code rot due to the lack of maintenance, because they are owned by the “Automation QAs”. No one fixes the slow or flaky tests. Eventually the build is red all the time, and someone turns off the tests, saying “Automated testing doesn’t work for us”.
+
+![This is fine](/public/images/2019-06-10-this-is-fine.png)
 
 Writing automated tests is a developer responsibility. Write the tests that prove the code works. 
 
