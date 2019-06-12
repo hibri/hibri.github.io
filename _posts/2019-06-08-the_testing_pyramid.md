@@ -137,3 +137,4 @@ This is crucial, as we want to fail fast. When we rely on the wrong type of test
 ### Notes
 1. A more detailed treatment of the testing pyramid. [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) by Ham Vocke
 2. I also like the [Small, Medium and Large nomenclature](https://testing.googleblog.com/2010/12/test-sizes.html) for tests by Simon Stewart
+3. [A dissection of a dissection of the test driven development process](https://blog.acolyer.org/2017/06/13/a-dissection-of-the-test-driven-development-process-does-it-really-matter-to-test-first-or-test-last/) by Adrian Colyer, in the Morning Paper
