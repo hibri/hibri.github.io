@@ -136,4 +136,4 @@ This is crucial, as we want to fail fast. When we rely on the wrong type of test
 
 ### Notes
 1. A more detailed treatment of the testing pyramid. [The Practical Test Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html) by Ham Vocke
-2. I also like the [Small, Medium and Large nomenclature](https://testing.googleblog.com/2010/12/test-sizes.html) for tests bu Simon Stewart
+2. I also like the [Small, Medium and Large nomenclature](https://testing.googleblog.com/2010/12/test-sizes.html) for tests by Simon Stewart
