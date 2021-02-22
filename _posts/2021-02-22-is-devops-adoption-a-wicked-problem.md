@@ -1,4 +1,3 @@
-
 ---
 title: Is DevOps adoption a 'wicked problem'?
 layout: post
