@@ -18,7 +18,6 @@ tags:
 
 ---
 
-Is DevOps adoption a 'wicked problem'?
 
 Horst Rittel and Melvin Webber coined the term' wicked problems' in the article 'Dilemmas in a General Theory of Planning' (Rittel and Webber, 1973).
 
