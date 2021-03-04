@@ -48,7 +48,7 @@ There were many suggestions to improve organisational learning.
 
 We discussed a few techniques to learn agile practices without the tools and technology.  Agile games such as the [Lean Lego Game](http://www.dtsato.com/blog/work/lean-lego-game/) and the [Kanban Pizza Game](http://www.agile42.com/en/training/kanban-pizza-game/) help introduce the CD thinking without getting mired in technical discussions. 
 
-[Everyone should read](http://www.amazon.co.uk/gp/product/0712678867/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0712678867&linkCode=as2&tag=hibrinet-21 "Maverick") by Ricardo Semler.
+Everyone should read ["Maverick" by Ricardo Semler](http://www.amazon.co.uk/gp/product/0712678867/ref=as_li_ss_tl?ie=UTF8&camp=1634&creative=19450&creativeASIN=0712678867&linkCode=as2&tag=hibrinet-21).
 
 Matthew also highlighted how we are good at spotting bad software architecture, but don&#8217;t spot queues and bottlenecks in organisational culture.  The sketch below would be recognised as having a bottleneck if it was a software system, but can we spot the bottleneck if this was an org chart ?
 
