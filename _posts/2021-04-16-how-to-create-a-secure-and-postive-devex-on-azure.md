@@ -53,7 +53,7 @@ The developer goes through the development workflow described above many times (
 
 Cochran (2021) shows a simple representation of how developers use feedback loops and a comparison of the time taken for developer activities in the restricted (low-effective) environment and un-restricted (high-effective) environment. 
 
-![Feedback Loops during feature development (Cochran, 2021)](/public/images/2021-04-160006-feedback-loops.png)
+![Feedback Loops during feature development (Cochran, 2021)](/public/images/2021-04-16-feedback-loops.png)
 
 The important observations are;
 
