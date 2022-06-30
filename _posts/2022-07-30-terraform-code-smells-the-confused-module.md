@@ -15,7 +15,6 @@ tags:
   - design
 
 ---
-# Terraform Code Smells - The Confused Module
 
 
 Infrastructure as Code has its [code smells ](https://en.wikipedia.org/wiki/Code_smell)(its code too !!) and as we work more with it, it's important to be aware of code smells that possibly indicate a deeper problem.
@@ -38,7 +37,7 @@ module "secure_vpc" {
 This is an example of a module that creates a VPC. The module declaration also has parameters that change its behaviour.  There is also the option for the VPC to allow egress outside of the network, and the option to turn monitoring on or off.
 This is a simple example, but modules tend to have long lists of parameters, with switches that change the module's behaviour. A consumer of the module has to specify the right combination of switches for the behaviour they want.
 
-![[switches.png]]
+![switches.png](/public/images/2022-07-30-terraform-smells-confused-module-switches.png)
 
 ## Why is this a code smell?
 
