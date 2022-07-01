@@ -17,9 +17,10 @@ tags:
 ---
 
 
-Infrastructure as Code has its [code smells ](https://en.wikipedia.org/wiki/Code_smell)(its code too !!) and as we work more with it, it's important to be aware of code smells that possibly indicate a deeper problem.
+Infrastructure as Code has [code smells ](https://en.wikipedia.org/wiki/Code_smell)(its code too !!) and as we work more with it, it's important to be aware of code smells that possibly indicate a deeper problem.
 
-A terraform module has parameters that change the behaviour of the module. Let's look at an example;
+A Confused Terraform module has parameters, that change the behaviour of the module. Different parameter value combinations allow the behaviour to change.
+Let's look at an example;
 
 ```terraform
 module "secure_vpc" {
