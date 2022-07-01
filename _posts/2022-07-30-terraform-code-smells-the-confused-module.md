@@ -59,7 +59,6 @@ For example;
 
 ```terraform
 module "secure_vpc_with_egress" {
-
 	source            = "./aws_vpc_with_egress"
 	name              = "mysupersecurevpc_with_egress"
 	range             = "192.168.0.0/24"
@@ -68,7 +67,6 @@ module "secure_vpc_with_egress" {
 
 
 module "locked_down_vpc" {
-
 	source            = "./aws_locked_down_vpc"
 	name              = "mysupersecurevpc"
 	range             = "192.168.0.0/24"
