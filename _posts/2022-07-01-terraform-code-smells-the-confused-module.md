@@ -3,7 +3,7 @@ title: "Terraform Code Smells - The Confused Module"
 author: Hibri Marzook
 layout: post
 published: true
-date: 2022-07-30T15:00:00+00:0
+date: 2022-07-01T15:00:00+00:0
 
 categories:
   - Terraform
