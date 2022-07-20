@@ -20,7 +20,7 @@ Infrastructure as Code has [code smells ](https://en.wikipedia.org/wiki/Code_sme
 
 The [Middleman](https://refactoring.guru/smells/middle-man) doesn't do anything other than delegate to a native resource
 
-Lets look at an example;
+Let's look at an example;
 
 ```
 module storage_account {
@@ -75,7 +75,7 @@ The module itself does not add any value over using the native resource directly
 
 This code smell appears because of the need to control what types of resources are used in the organisation's context. We can use [Azure Policy](https://docs.microsoft.com/en-us/azure/governance/policy/overview) and [AWS Guardrails](https://docs.aws.amazon.com/controltower/latest/userguide/guardrails.html) to achieve the same result
 
-Another reason is the need to deploy resources consistently across the organisation. For example to apply tags consistently. Again we can use policies to enforce consistency rules. 
+Another reason is the need to deploy resources consistently across the organisation. For example, to apply tags consistently. Again we can use policies to enforce consistent rules. 
 
 Does it satisfy the five [CUPID properties](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)? 
 
