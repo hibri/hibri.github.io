@@ -79,8 +79,8 @@ Another reason is the need to deploy resources consistently across the organisat
 
 Does it satisfy the five [CUPID properties](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)? 
 
-* **Unix philosophy:** Does it do one thing well? it does, but all it does is delegate. The work is done by the resource that is wrapped
-* **Predictable:** Does it do what you expect? It's easy to accidentally deploy the module in a non-compliant state
+* **Unix philosophy:** Does it do one thing well? it does, but all it does is delegate. The work is done by the resource that is wrapped in the module
+* **Predictable:** Does it do what you expect? It's unclear why a module is used than using the resource directly
 * **Idiomatic**: Does it feel natural? It introduces an extra level of in-direction compared to using the resource directly
 * **Domain-based:** does the solution model the problem domain? The module doesn't model the domain, it duplicates what Terraform does
 
