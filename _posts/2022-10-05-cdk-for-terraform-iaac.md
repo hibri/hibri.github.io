@@ -20,7 +20,7 @@ Cloud Development Kits (CDKs) allow you to use a familiar programming language t
 
 You don't have to switch context between different tooling ecosystems. It helps you stay focused. 
 
-I use .Net as my primary programming language (with Go a close second) and I do a lot of work with Cloud infrastructure. When I work with Terraform, I miss the type safety that a compiled language brings. I miss my refactoring tools to rename, move and safely delete things.
+I use C# as my primary programming language (with Go a close second) and I do a lot of work with Cloud infrastructure. When I work with Terraform, I miss the type safety that a compiled language brings. I miss my refactoring tools to rename, move and safely delete things.
 
 An IDE with a good set of refactoring tools reduces the cost of making code easier to work with. 
 
