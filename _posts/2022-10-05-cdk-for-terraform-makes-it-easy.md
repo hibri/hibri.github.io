@@ -1,5 +1,5 @@
 ---
-title: "Working with Terraform just got easier with the CDK"
+title: "CDK for Terraform - Infrastructure as actual Code"
 author: Hibri Marzook
 layout: post
 published: true
