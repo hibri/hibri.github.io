@@ -26,7 +26,7 @@ author:
 # Custom vars
 version:             1.0.0
 #Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-feed]
 paginate: 5
 paginate_path: "page:num"
 google_analytics: UA-107711-1
