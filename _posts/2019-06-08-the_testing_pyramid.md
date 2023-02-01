@@ -56,7 +56,7 @@ Unit tests should run fast (in milliseconds), in the same process and in-memory.
 
 Acceptance tests, test if we are building the right thing.  We write these tests in terms that our business and users can understand. With these tests we focus on only our code and the system we build. We mock out all the external dependencies. If we can't mock these out, we try to create local, in-memory or implementations that we can control.
 
-For example if our system relies on a database, we hook it up to a lightweight version we can spin up in a container. An in memory version works even better (SQL-Lite, SQL Server Local edition). We can start our lightweight database from a clean, known state for our tests. We can through away the database after running tests, as no one else relies on it.
+For example if our system relies on a database, we hook it up to a lightweight version we can spin up in a container. An in memory version works even better (SQL-Lite, SQL Server Local edition). We can start our lightweight database from a clean, known state for our tests. We can throw away the database after running tests, as no one else relies on it.
 
 ## Integration Tests
 
@@ -69,7 +69,7 @@ Integration tests, test the code that integrates with other systems. This can be
 
 ![Monitoring and Alerts](/public/images/2019-06-10-monitoring+alerts.png)
 
-Monitoring is based on things we know that could go wrong and have gone wrong in the past. The monitoring  and alerting framework raises an alert when things go wrong with the production system.
+Monitoring is based on things we know that could go wrong and have gone wrong in the past. The monitoring and alerting framework raises an alert when things go wrong with the production system.
 
 I’ve included Monitoring and Alerting here because, we should know when [something is broken and why it’s broken](https://medium.com/@copyconstruct/monitoring-and-observability-8417d1952e1c). We should be alerted when something is already broken or is about to break. This shouldn’t be done as an after thought. We should test or alerts even in test environments. Consider adding alerts to the [walking skeleton](https://wiki.c2.com/?WalkingSkeleton).
 
