@@ -98,7 +98,7 @@ Manual tests explore the unknown. These tests look at the new capabilities of th
 
 End to end tests are an all-embracing simulation of real user scenarios. An over-abundance of these tests are a symptom of testing as an after thought. The myth is that this is where we get more value. E2E tests have value for very simple systems. 
 
-As the system grows, there are more scenarios to test. The system grows in complexity.  E2E tests reflect that complexity. The tests become increasingly fragile and take more time and effort to maintain. Spending this time and effort on unit tests is a better investment strategy.
+As the system grows, there are more scenarios to test. The system grows in complexity.  E2E tests reflect that complexity. The tests become increasingly fragile and take more time and effort to maintain. Investing this time and effort on unit tests is a better strategy.
 
 E2E tests depend on all of the moving parts of a complex system being in the right state. The dependencies have to work perfectly. If another team breaks a dependent service, our tests will break. This makes E2E tests inherently fragile.
 
@@ -108,7 +108,7 @@ The only place we can get value out of E2E tests is in production, but then we a
 
 ## Manual tests for each release
 
-Doing manual tests only before each release is [release management theatre](https://continuousdelivery.com/2013/08/risk-management-theatre/).  This is wasteful. This anti-pattern is also the cause of the most common bottleneck to getting software delivered fast.
+Manual tests before each release is [release management theatre](https://continuousdelivery.com/2013/08/risk-management-theatre/). This is wasteful. This anti-pattern is the cause most frequently seen bottleneck to getting software delivered fast.
 
 Tests before a release should be automated regression tests. If tests have passed earlier in the pipeline and we have confidence in them, then we shouldn’t need to test each release manually.
 
