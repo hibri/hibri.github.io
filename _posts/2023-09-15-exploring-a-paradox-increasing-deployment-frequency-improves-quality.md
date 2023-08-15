@@ -53,7 +53,7 @@ Lets look at another limiting factor, the release freeze. A release freeze buys 
 
 ![Casual Loop Diagram driving worsening quality and limiting factors](/public/images/2023-09-15-paradox-deployment-frequency-3.jpg)
 
-Again, this increases the delay to the next release, and the changes pipe up. Even if we temporarily fix the current release, release freezes reduce product quality.
+Again, this increases the delay to the next release, and the changes pile up. Even if we temporarily fix the current release, release freezes reduce product quality.
 
 Lets look at other contributing factors adding to delays between releases.
 
