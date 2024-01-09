@@ -20,5 +20,11 @@ Conferences <http://lanyrd.com/profile/hibri/>
 
 Talks I've given
 
-* [Hashicorp Tools for the Windows Ecosystem](https://speakerdeck.com/hibri/hashicorp-tools-for-windows)
-* [Evolving Continuous Delivery](https://speakerdeck.com/hibri/evolving-continuous-delivery). [Video](https://www.youtube.com/watch?v=eYzk2BKeG9s) 
+- Agile on the Beach 2022 - [How to create the conditions for an awesome DevEx](https://www.youtube.com/watch?v=nG4uDTRFpBo)
+- All Day DevOps 2021 - [A Tale of 3 Cloud Platforms in UK Government](https://www.alldaydevops.com/addo-speakers/hibri-marzook-0)
+- cdCon 2021 - [How to Scale Cloud Adoption whilst building a world-class developer experience](https://cdcon2021.sched.com/event/jngl/how-to-scale-cloud-adoption-whilst-building-a-world-class-developer-experience-hibri-marzook-ruchir-sanghavi-contino)
+- Lean Agile Scotland 2019 - [Using the Toyota Improvement Kata to solve hard problems](https://2019.leanagile.scot/programme/using-toyota-improvement-kata-solve-hard-problems)
+- WinOps 2019 - [Patterns for Succeeding with Azure in the Enterprise](https://www.winops.org/london/agenda/patternsforsucceeding.php)
+- Agile London MeetUp - August 2018 - [Pipelines are dead](https://speakerdeck.com/hibri/pipelines-are-dead)
+- London Continuous Delivery MeetUp - February 2017 - [Going from rags to riches - Evolving Continuous Delivery](https://www.youtube.com/watch?v=eYzk2BKeG9s)
+- WinOps MeetUp 2016 - [Hashicorp Tools for the Windows Ecosystem](https://speakerdeck.com/hibri/hashicorp-tools-for-windows)
